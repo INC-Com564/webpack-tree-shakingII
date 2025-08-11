@@ -1,4 +1,4 @@
-
+import './styles.css';
 
 import { usefulFunction1, usefulVariable } from './myModule.js';
 

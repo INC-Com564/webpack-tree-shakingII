@@ -4,3 +4,12 @@ module.exports = {
   // ...existing code...
 };
 // ...existing code...
+
+module: {
+    rules: [
+        {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
+        }
+    ]
+}
